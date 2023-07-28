@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post MCAT Jobs</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- DropDown -->
+    <link rel="stylesheet" href="css/chosen.min.css">
+
+
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+    <div class="main_hedding">
+        <div class="row">
+
+            <div class="col-12 text-center p-0">
+                <div class="post_hed">
+                    <span>Post MCAT Jobs</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="spacer_x">
+            <div class="first_sec">
+                <div class="row">
+
+                    <div class="col-auto p-0 d-flex">
+
+                        <div class="job_menu d-flex align-items-center">
+                            <span>Job Type:</span>
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Cross Enrichment
+                                    <i class="fas fa-chevron-down job_drop_icon"></i>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="main_subcat_sec">
+
+                            <div class="subcat d-flex align-items-center">
+                                <span>SUBCAT:</span>
+                                <input type="text" placeholder="Ceilling Fans, Table Fans, Exaust Fans...">
+                            </div>
+
+                        </div>
+
+                        <div class="main_custtype_drop">
+                            <div class="custtype_menu d-flex align-items-center">
+                                <span>Custtype:</span>
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Custtype
+                                        <i class="fas fa-chevron-down"></i>
+                                    </button>
+
+                                    <ul class="dropdown-menu drop_check p-0" aria-labelledby="dropdownMenuButton1">
+
+                                        <li class="select_check">
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault1" checked>
+                                                <label class="form-check-label" for="flexCheckDefault1">
+                                                    Select All
+                                                </label>
+                                            </div>
+
+                                        </li>
+
+                                        <li>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefaul2t">
+                                                <label class="form-check-label" for="flexCheckDefault2">
+                                                    Leading Supplier
+                                                </label>
+                                            </div>
+
+                                        </li>
+
+                                        <li>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault3">
+                                                <label class="form-check-label" for="flexCheckDefault3">
+                                                    Star Supplier
+                                                </label>
+                                            </div>
+
+                                        </li>
+
+                                        <li>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault4">
+                                                <label class="form-check-label" for="flexCheckDefault4">
+                                                    TS Catalog
+                                                </label>
+                                            </div>
+
+                                        </li>
+
+                                        <li>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault5">
+                                                <label class="form-check-label" for="flexCheckDefault5">
+                                                    Catalog
+                                                </label>
+                                            </div>
+
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- City click -->
+                <div class="row section-space">
+
+                    <div class="col-auto p-0 d-flex">
+
+                        <div class="city_fill d-flex align-items-center">
+                            <span>City:</span>
+
+                            <button class="hvr_btn">All india</button>
+                            <!-- <input type="text" placeholder="All india" id="city-click"> -->
+                            <!-- <input type="text" placeholder="All india" id="city-click"> -->
+                        </div>
+
+                        <div class="city_dropdown">
+
+                            <div class="city-main" id="city-box">
+
+                                <div class="default-box"></div>
+
+                                <div class="citys">
+                                    <div class="single-city ms-0" id="m1">
+                                        <a href="#">Surat
+                                            <i class="fas fa-times" id="c1"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="citys">
+                                    <div class="single-city" id="m2">
+                                        <a href="#">Vadodra
+                                            <i class="fas fa-times" id="c2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="citys">
+                                    <div class="single-city" id="m4">
+                                        <a href="#">Ahmedabad
+                                            <i class="fas fa-times" id="c4"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="citys">
+                                    <div class="single-city" id="m5">
+                                        <a href="#">Rajkot
+                                            <i class="fas fa-times" id="c5"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="citys">
+                                    <div class="single-city" id="m6">
+                                        <a href="#">Bharuch
+                                            <i class="fas fa-times" id="c6"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="citys">
+                                    <div class="single-city" id="m7">
+                                        <a href="#">Navsari
+                                            <i class="fas fa-times" id="c7"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="citys">
+                                    <div class="single-city" id="m8">
+                                        <a href="#">Vadodra
+                                            <i class="fas fa-times" id="c8"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+                            <div class="city-list-main" id="city-list">
+                                <div class="single-city-i">
+                                    <ul class="dropdown-menu  p-0" aria-labelledby="dropdownMenuButton1">
+
+                                        <li>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input city-value" type="checkbox" value=""
+                                                    id="city-chk1">
+                                                <label class="form-check-label c-chk1" for="city-chk1">
+                                                    Ahmedabad
+                                                </label>
+                                            </div>
+
+                                        </li>
+
+                                        <li>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input city-value" type="checkbox" value=""
+                                                    id="city-chk2">
+                                                <label class="form-check-label c-chk2" for="city-chk2">
+                                                    Rajkot
+                                                </label>
+                                            </div>
+
+                                        </li>
+
+                                        <li>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input city-value" type="checkbox" value=""
+                                                    id="city-chk3">
+                                                <label class="form-check-label c-chk3" for="city-chk3">
+                                                    Bharuch
+                                                </label>
+                                            </div>
+
+                                        </li>
+
+                                        <li>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input city-value" type="checkbox" value=""
+                                                    id="city-chk4">
+                                                <label class="form-check-label c-chk4" for="city-chk4">
+                                                    Navsari
+                                                </label>
+                                            </div>
+
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="theme_btn">
+                            <a href="#">Get Result</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- jquery-3.6.0 -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Dropdown JS -->
+    <script src="js/chosen.jquery.min.js"></script>
+
+
+
+
+    <!-- Click City -->
+    <script>
+
+        let cityValue1 = document.querySelectorAll('.city-value');
+        let score = 0;
+        let cityMain = document.querySelector('.city-main');
+
+        function unchekedCity() {
+            score = 0;
+            cityValue1.forEach(cityValue1 => {
+                if (cityValue1.checked == true) {
+                    score++;
+                }
+            });
+            if (score <= 0) {
+                cityMain.style.width = '100px';
+            }
+            else {
+
+                cityMain.style.width = 'auto';
+            }
+        }
+        unchekedCity();
+
+
+        function unchekedCity1() {
+            score = 0;
+            cityValue1.forEach(cityValue1 => {
+                if (cityValue1.checked == true) {
+                    score++;
+                }
+            });
+            if (score <= 1) {
+                cityMain.style.width = '100px';
+            }
+            else {
+
+                cityMain.style.width = 'auto';
+            }
+        }
+
+
+        //$('#m1').css({opacity: '0'});
+        $('#m1').hide()
+        $('#m2').hide();
+        $('#m4').hide();
+        $('#m5').hide();
+        $('#m6').hide();
+        $('#m7').hide();
+        $('#m8').hide();
+
+
+        //$('#city-box').hide();
+        $('#city-list').hide();
+
+
+        /* city box open */
+        $('#city-click').click(function () {
+            $('#city-box').show();
+        });
+
+        /* city list open */
+        $('#city-box').click(function () {
+            $('#city-list').show();
+        });
+
+
+
+        $('#c1').click(function () {
+
+            $('#m1').hide();
+
+        });
+
+        $('#c2').click(function () {
+
+            $('#m2').hide();
+
+        });
+
+        $('#c3').click(function () {
+
+            $('#m3').hide();
+
+        });
+
+
+        $('#c4').click(function () {
+            $('#m4').hide();
+            unchekedCity1();
+
+
+            if ($("#city-chk1").prop("checked", false)) {
+                $('.c-chk1').css({
+                    color: '#838383',
+                });
+            }
+
+        });
+
+
+        $('#c5').click(function () {
+
+            $('#m5').hide();
+            unchekedCity1();
+
+            if ($("#city-chk2").prop("checked", false)) {
+                $('.c-chk2').css({
+                    color: '#838383',
+                });
+            }
+
+        });
+
+
+        $('#c6').click(function () {
+
+            $('#m6').hide();
+            unchekedCity1();
+
+            if ($("#city-chk3").prop("checked", false)) {
+                $('.c-chk3').css({
+                    color: '#838383',
+                });
+            }
+
+        });
+
+
+        $('#c7').click(function () {
+
+
+            $('#m7').hide();
+            unchekedCity1();
+            if ($("#city-chk4").prop("checked", false)) {
+                $('.c-chk4').css({
+                    color: '#838383',
+                });
+            }
+
+        });
+
+
+        $('#c8').click(function () {
+
+            $('#m8').hide();
+
+            if ($("#city-chk5").prop("checked", false)) {
+                $('.c-chk5').css({
+                    color: '#838383',
+                });
+            }
+
+        });
+
+
+
+
+
+        // List Of City
+
+        $('#city-chk1').click(function () {
+
+            $('.c-chk1').css({
+                color: '#40189D',
+            });
+
+            if ($('#city-chk1').is(":checked")) {
+                $('.c-chk1').css({
+                    color: '#40189D',
+                });
+            }
+            else {
+                $('.c-chk1').css({
+                    color: '#838383',
+                });
+            }
+
+
+            if ($('#city-chk1').is(":checked")) {
+                $("#m4").show();
+                unchekedCity();
+                //     $(".city-main").css({
+                //         width: 'auto',
+                //     })
+            }
+            else {
+                $("#m4").hide();
+                unchekedCity();
+
+                // $(".city-main").css({
+                //     width: '140px',
+                // })
+            }
+
+
+
+        });
+
+        $('#city-chk2').click(function () {
+
+            if ($('#city-chk2').is(":checked")) {
+                $('.c-chk2').css({
+                    color: '#40189D',
+                });
+            }
+            else {
+                $('.c-chk2').css({
+                    color: '#838383',
+                });
+            }
+
+            if ($('#city-chk2').is(":checked")) {
+                $("#m5").show();
+                unchekedCity();
+
+            } else {
+                $("#m5").hide();
+                unchekedCity();
+
+            }
+
+        });
+
+        $('#city-chk3').click(function () {
+
+            if ($('#city-chk3').is(":checked")) {
+                $('.c-chk3').css({
+                    color: '#40189D',
+                });
+            }
+            else {
+                $('.c-chk3').css({
+                    color: '#838383',
+                });
+            }
+
+            if ($('#city-chk3').is(":checked")) {
+                $("#m6").show();
+                unchekedCity();
+
+            } else {
+                $("#m6").hide();
+                unchekedCity();
+
+            }
+
+        });
+
+        $('#city-chk4').click(function () {
+
+            if ($('#city-chk4').is(":checked")) {
+                $('.c-chk4').css({
+                    color: '#40189D',
+                });
+                unchekedCity();
+
+            }
+            else {
+                $('.c-chk4').css({
+                    color: '#838383',
+                });
+                unchekedCity();
+
+            }
+
+            if ($('#city-chk4').is(":checked")) {
+                $("#m7").show();
+                unchekedCity();
+
+            } else {
+                $("#m7").hide();
+                unchekedCity();
+
+            }
+
+
+        });
+
+
+
+
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>

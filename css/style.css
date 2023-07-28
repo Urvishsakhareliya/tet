@@ -1,0 +1,652 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+/* poppins-100 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/poppins-v15-latin-100.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/poppins-v15-latin-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/poppins-v15-latin-100.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/poppins-v15-latin-100.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/poppins-v15-latin-100.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/poppins-v15-latin-100.svg#Poppins') format('svg'); /* Legacy iOS */
+  }
+  /* poppins-200 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/poppins-v15-latin-200.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/poppins-v15-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/poppins-v15-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/poppins-v15-latin-200.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/poppins-v15-latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/poppins-v15-latin-200.svg#Poppins') format('svg'); /* Legacy iOS */
+  }
+  /* poppins-300 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/poppins-v15-latin-300.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/poppins-v15-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/poppins-v15-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/poppins-v15-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/poppins-v15-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/poppins-v15-latin-300.svg#Poppins') format('svg'); /* Legacy iOS */
+  }
+  /* poppins-regular - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v15-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/poppins-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/poppins-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/poppins-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/poppins-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/poppins-v15-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+  }
+  /* poppins-500 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/poppins-v15-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/poppins-v15-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/poppins-v15-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/poppins-v15-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/poppins-v15-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/poppins-v15-latin-500.svg#Poppins') format('svg'); /* Legacy iOS */
+  }
+  /* poppins-600 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/poppins-v15-latin-600.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/poppins-v15-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/poppins-v15-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/poppins-v15-latin-600.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/poppins-v15-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/poppins-v15-latin-600.svg#Poppins') format('svg'); /* Legacy iOS */
+  }
+  /* poppins-700 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/poppins-v15-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/poppins-v15-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/poppins-v15-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/poppins-v15-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/poppins-v15-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/poppins-v15-latin-700.svg#Poppins') format('svg'); /* Legacy iOS */
+  }
+  /* poppins-800 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/poppins-v15-latin-800.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/poppins-v15-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/poppins-v15-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/poppins-v15-latin-800.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/poppins-v15-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/poppins-v15-latin-800.svg#Poppins') format('svg'); /* Legacy iOS */
+  }
+  /* poppins-900 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/poppins-v15-latin-900.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/poppins-v15-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/poppins-v15-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/poppins-v15-latin-900.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/poppins-v15-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/poppins-v15-latin-900.svg#Poppins') format('svg'); /* Legacy iOS */
+  }
+
+
+
+.row {
+padding: 0%;
+margin: 0%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #F9F6FF;
+}
+
+.spacer-x {
+margin: 0 100px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.spacer_x{
+    padding: 0 40px;
+}
+
+
+.post_hed{
+    padding: 12px 0;
+    background-color: #40189D;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.first_sec{
+    margin-top: 32px;
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+.job_menu button{
+    border: 1px solid #C8AFFF;
+    color: #40189D;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.job_menu button > i{
+    color: #C8AFFF;
+    margin-left: 40px;
+}
+
+
+
+.job_menu > span{
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 16px;
+}
+
+.job_menu button:hover{
+    color: #40189D;
+}
+
+.btn-check:focus+.btn, .btn:focus
+{
+    box-shadow: none;
+}
+
+.main_subcat_sec{
+    margin: 0 120px 0 140px;
+}
+
+.subcat > span{
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 16px;
+}
+.subcat > input{
+    padding: 8px 10px;
+    border:1px solid #C8AFFF;
+    border-radius: 8px;
+    width: 450px;
+    outline: none;
+}
+
+.subcat input::placeholder{
+    color: #40189D;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.custtype_menu button{
+    border: 1px solid #C8AFFF;
+    color: #40189D;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 8px 8px 0 0;
+    background-color: #fff;
+    padding: 6px 16px;
+}
+
+.custtype_menu button:hover{
+    color: #40189D;
+}
+
+.custtype_menu > span{
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 16px;
+}
+
+.custtype_menu button > i{
+    color: #C8AFFF;
+    margin-left: 10px;
+}
+
+
+.select_check{
+    color: #40189D;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+ .drop_check li{
+    padding: 7px 0px 0px 8px;
+    border-bottom: 1px solid #C8AFFF4D;
+    font-size: 12px;
+}
+
+
+.drop_cust li:last-child{
+    border-bottom: none;
+}
+
+.form-check-input:checked[type=checkbox]{
+    background-image: url(../images/check_right.svg);
+}
+.form-check-input{
+    border-color: #D9C8FF;
+}
+
+.form-check-input:checked{
+    background-color: transparent;
+    border-color: #40189D;
+    color: #40189D;
+}
+
+.dropdown-menu
+{
+    color: #838383;
+    font-weight: 500;
+    border: 1.6px solid #C8AFFF;
+    border-radius: 2px 2px 8px 8px;
+    font-size: 14px;
+}
+
+
+.drop_check{
+    min-width: 138px !important;
+}
+
+
+/* .chosen-container-multi .chosen-choices li.search-choice .search-choice-close{
+    background: url(../images/close-btn.svg);
+}
+
+.chosen-container-multi .chosen-choices li.search-choice .search-choice-close:hover{
+    background-position: inherit;
+}
+
+.chosen-container-multi .chosen-choices{
+    border: 1.6px solid #C8AFFF;
+}
+
+.chosen-container-active .chosen-choices{
+    border: 1.6px solid #C8AFFF;
+}
+
+.chosen-container{
+    height: 42px;
+}
+
+.chosen-container-multi .chosen-choices li.search-choice{
+    background-color: #40189D !important;
+    background-image: none;
+    color: #fff;
+    box-shadow: none;
+    border: none;
+    padding: 10px 30px 10px 10px
+}
+
+.chosen-container-multi .chosen-choices li.search-choice .search-choice-close{
+    top: 12px;
+    right: 10px;
+}
+
+.search-choice > span{
+    font-size: 13px;
+}
+
+.chosen-drop{
+    padding: 10px;
+    background: #FFFFFF !important;
+    border: 1.6px solid #C8AFFF !important;
+    border-radius: 2px 2px 8px 8px !important;
+    width: 120px !important;
+} */
+
+
+
+/* citi click */
+.section-space{
+    margin-top: 30px;
+}
+
+.city_dropdown{
+    margin-left: 6px;
+}
+
+.city_fill > span{
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 16px;
+}
+.city_fill > input{
+    padding: 8px 0px;
+    border:1px solid #40189D;
+    border-radius: 8px;
+    width: 90px;
+    outline: none;
+    cursor: pointer;
+}
+
+.city_fill input::placeholder{
+    color: #7D7D7D;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+.city_fill > button{
+    padding: 8px 0px;
+    border:1px solid #40189D;
+    border-radius: 8px;
+    width: 90px;
+    outline: none;
+    /* cursor: pointer; */
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    transition: .2s;
+}
+
+.city_fill > button:hover{
+    background-color: #40189D;
+    color: #fff;
+}
+
+
+.city-main{
+    background: #FFFFFF;
+    border: 1.6px solid #C8AFFF;
+    border-radius: 8px 8px 2px 2px;
+    padding: 2px 10px 2px 0;
+    display: flex;
+    height: 44px;
+    width: auto;
+    cursor: pointer;
+}
+
+.single-city{
+    padding: 5px 10px;
+    background-color: #40189D;
+    border-radius: 4px;
+    border: 1.6px solid #C8AFFF;
+    margin-left: 10px;
+}
+
+.single-city > a{
+    color: #fff;
+    cursor: text;
+    font-size: 14px;
+}
+
+.single-city > a > i{
+    color: #40189D;
+    padding: 2px 5px;
+    background-color: #fff;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.single-city-i > ul{
+    display: block;
+    margin-top: 1px;
+}
+.single-city-i li{
+    padding: 10px 10px 0 10px;
+    border-bottom: 1px solid #C8AFFF4D;
+}
+
+.theme_btn{
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.theme_btn a{
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    padding: 8px 30px;
+    background-color: #40189D;
+    border-radius: 40px;
+    border:1px solid #40189D;
+    transition: .4s;
+}
+
+.theme_btn a:hover{
+    color: #40189D;
+    background-color: transparent;
+    border-color: #40189D;
+}
+
+
+
+
+
+
+
+
+/*================================================================================
+                                            Midia Queries
+================================================================================*/
+
+@media screen and (min-width: 1400px) and (max-width: 1510px) {
+    .main_subcat_sec{
+        margin: 0 60px 0 80px;
+    }
+    .subcat > input{
+        padding: 8px 10px;
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    .post_hed{
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    .job_menu > span{
+        font-size: 16px;
+    }
+
+    .job_menu button{
+        font-size: 14px;
+    }
+
+    .main_subcat_sec{
+        margin: 0 60px 0 80px;
+    }
+
+    .subcat > span{
+        font-size: 16px;
+    }
+
+    .subcat > input{
+        padding: 4px 10px;
+        width: 300px;
+    }
+
+    .subcat input::placeholder{
+        font-size: 14px;
+    }
+
+    .custtype_menu > span{
+        font-size: 16px;
+    }
+
+    .custtype_menu button{
+        font-size: 14px;
+    }
+
+    .city_fill > span{
+        font-size: 18px;
+    }
+
+    .city_fill > button{
+        padding: 4px 0;
+        width: 80px;
+    }
+    
+    .city_fill input::placeholder{
+        font-size: 14px;
+    }
+
+    .city-main{
+        height: 34px;
+        padding-right: 6px;
+    }
+
+    .single-city-i li{
+        padding: 8px 10px 0 10px;
+    }
+    .single-city{
+        padding: 0 6px;
+        margin-left: 6px;
+    }
+    
+    .single-city > a > i{
+        padding: 0 3px;
+        margin-left: 6px;
+    }
+
+    .theme_btn a{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .post_hed{
+        font-size: 18px;
+        padding: 10px 0;
+    }
+
+    .job_menu > span{
+        font-size: 14px;
+        margin-right: 12px;
+    }
+
+    .job_menu button{
+        font-size: 12px;
+    }
+
+    .main_subcat_sec{
+        margin: 0 20px 0 40px;
+    }
+
+    .subcat > span{
+        font-size: 14px;
+        margin-right: 12px;
+    }
+
+    .subcat > input{
+        padding: 4px 10px;
+        width: 270px;
+    }
+
+    .subcat input::placeholder{
+        font-size: 12px;
+    }
+
+    .custtype_menu > span{
+        font-size: 14px;
+        margin-right: 12px;
+    }
+
+    .custtype_menu button{
+        font-size: 12px;
+    }
+
+    .city-main{
+        height: 34px;
+        padding-right: 6px;
+    }
+
+    .city_fill > span{
+        font-size: 14px;
+    }
+
+    .city_fill > button{
+        padding: 4px 0px;
+        width: 80px;
+    }
+    
+    .city_fill input::placeholder{
+        font-size: 12px;
+    }
+
+    .single-city{
+        padding: 0 6px;
+        margin-left: 6px;
+    }
+
+    .dropdown-menu
+    {
+        font-size: 12px;
+    }
+
+    .single-city > a{
+        font-size: 12px;
+    }
+    
+    .single-city > a > i{
+        padding: 1px 4px;
+        margin-left: 6px;
+    }
+
+    .single-city-i li{
+        padding: 8px 8px 0 8px;
+    }
+    
+
+
+    .theme_btn a{
+        font-size: 12px;
+        padding: 6px 20px;
+    }
+    
+}
